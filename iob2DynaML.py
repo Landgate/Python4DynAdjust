@@ -8,7 +8,8 @@
 # ----------------------------------------------------------------------
 #   Usage:  cmd:\> python iob2DynaML.py <*.iob>
 # ----------------------------------------------------------------------
-    
+# future development requires capability to read 2DC geolab records
+
 import os, sys, shutil
 from src.Python4Dyna import * 
 from src.Dyna2db import * 
