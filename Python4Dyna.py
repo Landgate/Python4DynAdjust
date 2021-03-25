@@ -20,7 +20,7 @@ class DnaStation:
         self.Desc = ''
         self.aAxis = 0
         self.bAxis = 0
-        self.ErrAz = 0
+        self.ErrAz = 1
 
 
 class AdditionalInfoStn:
