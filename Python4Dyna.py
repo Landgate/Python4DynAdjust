@@ -299,7 +299,7 @@ def err_ellip_2_ycluster(stn):
     # Input: Supply a station with coordinates
     #        and error ellipse for coordinate uncertainty
     # Output: xml string for  point cluster (Y-type observation)
-    x, y, z = llh2xyz(float(stn.XAxis), float(stn.YAxis), float(stn.Height))
+    x, y, z = llh2xyz(float(stn.XAxis), float(stn.YAxis), float(stn.Heights))
     
     a = stn.aAxis / 2.44774683068
     b = stn.bAxis / 2.44774683068
